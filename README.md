@@ -15,6 +15,7 @@ Monitor services, review incidents, inspect logs, track activity, and run safe d
 ![Drizzle ORM](https://img.shields.io/badge/ORM-Drizzle-C5F74F?logoColor=black)
 ![Vitest](https://img.shields.io/badge/tests-Vitest-6E9F18?logo=vitest&logoColor=white)
 ![Status](https://img.shields.io/badge/status-free_MVP-2F8CFF)
+![License](https://img.shields.io/badge/license-MIT-2F8CFF)
 
 <img src="docs/screenshots/01-global-infrastructure.png" alt="Cloud Empire AI global infrastructure view with a live 3D topology globe" width="100%">
 
@@ -37,6 +38,7 @@ Monitor services, review incidents, inspect logs, track activity, and run safe d
 - [Testing and Quality](#testing-and-quality)
 - [Roadmap](#roadmap)
 - [Notes for AI Coding Agents](#notes-for-ai-coding-agents)
+- [License](#license)
 - [Author](#author)
 
 ## Overview
@@ -360,6 +362,10 @@ TypeScript build errors are never ignored (`ignoreBuildErrors: false`).
 
 This project uses a Next.js version with breaking changes compared to older releases. Before writing code, read the relevant guide in `node_modules/next/dist/docs/` and heed deprecation notices. See [`AGENTS.md`](AGENTS.md); `CLAUDE.md` simply imports it. The agent-rules block in `AGENTS.md` is written and re-added by `next dev`, so commit it with your work to keep the tree clean.
 
+## License
+
+Released under the [MIT License](LICENSE).
+
 ## Author
 
-**Dina Ashraff** · [@DinaAshraff9](https://github.com/DinaAshraff9)
+**Dina Ashraff** · [@DinaAshraff9](https://github.com/DinaAshraff9) · [LinkedIn](https://www.linkedin.com/in/dina-ashraff-7a923737b)
