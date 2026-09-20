@@ -6,6 +6,8 @@
 
 Monitor services, review incidents, inspect logs, track activity, and run safe deployment workflows from one dark, operations-focused dashboard.
 
+<a href="https://project-code-review.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Open_the_app-2F8CFF?style=for-the-badge" alt="Open the live demo"></a>
+
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)
@@ -44,6 +46,8 @@ Monitor services, review incidents, inspect logs, track activity, and run safe d
 ## Overview
 
 Cloud Empire AI makes infrastructure work easier to understand and safer to operate. It combines a navigable control center with a live 3D global topology, observability views, deployment workflows, usage telemetry, incident review, activity history, reports, templates, maintenance controls, an in-app AI assistant, and authentication.
+
+**Live demo:** [https://project-code-review.vercel.app/](https://project-code-review.vercel.app/). Create a free account with an email and password to explore the dashboard. No payment details are ever requested.
 
 > **Local Safe Mode:** every change stays inside the project and no external infrastructure is provisioned. The current release is a polished, free MVP / demo foundation. Real cloud integrations and production-grade backup infrastructure are deliberate extension points.
 
@@ -311,6 +315,8 @@ Open [http://localhost:3000](http://localhost:3000).
 | `pnpm test` | Run the Vitest test suite |
 
 ## Deployment
+
+The live demo is hosted on [Vercel](https://vercel.com/). To deploy your own copy:
 
 1. Push the repository to GitHub and import it into [Vercel](https://vercel.com/).
 2. Add `DATABASE_URL` and `BETTER_AUTH_SECRET` in the project's environment variables.
